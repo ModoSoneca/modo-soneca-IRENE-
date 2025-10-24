@@ -1,0 +1,32 @@
+:root {
+    --main-bg-color: brown;
+    font-size: clamp(0.9375rem, 0.9119rem + 0.1136vw, 1rem);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    /* remove o sublinhado dos links */
+    color: white;
+    font-size: 20px;
+    /* altera a cor de todos os links das páginas */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: #3b657a;
+
+}
+
+ol {
+    display: flex;
+    gap: 20px;
+    margin: 23px 20px 23px 20px;
+
+}
+
+html {
+    font-family: Urbanist;
+}

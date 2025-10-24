@@ -36,7 +36,7 @@ html {
     font-size: 2rem;
 }
 
-main {
+main.pintos {
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -95,6 +95,8 @@ main {
     }
 
 
+    /*!!!!!!!!!!!!!!!!!!!!!!!! habitos saudaveis !!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+
     .mainzinho{
     
     margin: 0;
@@ -137,7 +139,8 @@ p{
 }
 .botuoes{
     display: flex;
-    justify-content: space-between-;
+    justify-content: space-between;
+    gap: 20px;
 }
 .mainzinho nav p{
     color: #0d192b;
